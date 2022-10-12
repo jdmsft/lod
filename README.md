@@ -61,5 +61,13 @@ Go back to trainer presentation to claim a new Azure Pass subscription together.
 
 Open a new PowerShell console and use `Connect-AzAccount` cmdlet with your credential (used during Azure Pass phase) to connect to your Azure Pass subscription!
 
-Enjoy your lab! 😊 (the lab content is directly available from the right pane of your LOD window)
+Run following command to register Azure Core services providers:
+
+````powershell
+Register-AzResourceProvider -ProviderNamespace Microsoft.Compute
+Register-AzResourceProvider -ProviderNamespace Microsoft.Network
+Register-AzResourceProvider -ProviderNamespace Microsoft.Storage
+````
+
+You're now ready to deploy resources in Azure! Enjoy your lab 😊 (the lab content is directly available from the right pane of your LOD window)
 
