@@ -12,9 +12,11 @@ Follow trainer presentation to redeem a training key to access to your virtual c
 
 To update your LOD virtual machine before performing the lab follow the process below:
 
-1. Connect to your LOD virtual machine
+1. Connect to your LOD virtual machine by clicking on `⚡` icon at the upper-left of your lab window and select `Type Text` > `Type Password`
 
 ![](./media/type-password.png)
+
+Then validate your password to log in.
 
 2. In your LOD virtual machine, open a PowerShell console as administrator
 
