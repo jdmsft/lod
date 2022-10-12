@@ -49,7 +49,9 @@ Don't forget to click on `OK` button!
 
 ![](./media/powershell-2.png)
 
-**Update done!** (the PowerShell console will automatically close by itself at the end of the process)
+> This process can take up to 5 minutes. You can jump to the part 3 during this time. 
+
+The update is done when the PowerShell console will automatically close by itself at the end of the process.
 
 ## 3. Claim Azure Pass
 

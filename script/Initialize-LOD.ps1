@@ -5,9 +5,9 @@
         ==============================================================================================
         Script:         Initialize-LOD
         Purpose:        Initialize Microsoft LOD virtual machine Azure PowerShell environment
-        Version:        1.2
+        Version:        1.3
         DateCreated:    11/10/22
-        DateModified:   11/10/22
+        DateModified:   12/10/22
         ==============================================================================================
         DISCLAIMER
         ==============================================================================================
@@ -24,12 +24,6 @@
         to use the sample scripts or documentation, even if Microsoft has been
         advised of the possibility of such damages.
         ==============================================================================================
-        HOW TO USE
-        ==============================================================================================
-        Execute this script directly from VM by running this PowerShell (as Administrator) next line :
-        iex ((New-Object System.Net.WebClient).DownloadString('https://jdmsft.com/lod'))
-        ==============================================================================================
-        ==============================================================================================
     .SYNOPSIS
         Initialize Microsoft LOD virtual machine Azure PowerShell environment
     .DESCRIPTION
@@ -39,7 +33,7 @@
 #>
 
 cls
-Write-Host "`nMicrosoft LOD Initializer v1.2 (JDMSFT - 2022)`n" -ForegroundColor Yellow
+Write-Host "`nMicrosoft LOD Initializer v1.3 (JDMSFT - 2022)`n" -ForegroundColor Yellow
 Write-Warning "This script is intented to configure Microsoft LOD virtual machine ONLY!"
 Read-Host -Prompt "`nPress ENTER to continue or close this window to abort."
 
